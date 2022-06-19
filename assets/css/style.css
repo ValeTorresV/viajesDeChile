@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica;
+}
+
+/* Regula tamaño icono */
+.icono {
+    height: 2.5rem;
+    width: 3.0rem;
+}
+
+.separacion {
+    color: #17a2b8;
+    border-top: 0.1em solid;
+    /* rosor linia */
+}
+
+.letraParrafo {
+    font-family: 'open sans';
+    text-align: left;
+}
+
+.colorTurquesa {
+    background-color: #17a2b8;
+}
+
+.titulos {
+    font-family: 'open sans';
+}
+
+/* tamaño imagen tarjetas */
+.imgTarjetas{
+    height: 200px
+}
+
+/* #imagenFondo{
+background-image: image-set(url../);
+} */

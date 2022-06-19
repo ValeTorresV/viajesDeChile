@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <meta name="Author" content="Valeska Torres V">
+    <!-- Bootstrap 5.1 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- integracion iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fuentes   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-dark">
+    <!-- fonfo cuepor pagina negro -->
+    <header id="imagenFondo">
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            <div class="container">
+                <!-- genera margen a contenidos -->
+                <a class="navbar-brand" href="#">
+                    <img class="icono" src="assets/img/viajes.svg" alt="Icono">
+                    Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- cambia  opciones hacia derecha -->
+                        <li class="nav-item">
+                            <!-- referenciar en href elemento de la pagina -->
+                            <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#¿Quienes Somos?">¿Quienes Somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Quienes somos -->
+    <section id="QuienesSomos" class=" pt-5 container text-white d-none d-sm-block text-center">
+        <!--  d-none d-sm-block desaparece en tamaño movile -->
+        <div>
+            <h3 class="titulos">¿Quienes Somos?</h3>
+        </div>
+        <hr class="opacity-100 separacion "> <!-- linea divisoria -->
+
+        <div class="row pt-3 ">
+            <!-- parrafo 1 -->
+            <div class="col-4">
+                <div class="colorTurquesa p-1 mb-2">
+                    <i class="fa-solid fa-plane  fa-2x "></i> <!-- icono -->
+                </div>
+                <p class="letraParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores quidem
+                    dolore vel,
+                    reiciendis laudantium doloribus quam laboriosam voluptatem, vero obcaecati, tempora doloremque?
+                    Fugit unde blanditiis rem accusantium cum. Labore odio ipsa nulla inventore suscipit beatae corporis
+                    debitis. Dicta in impedit enim provident repellat laudantium nemo quo quam nobis perspiciatis.
+                    Libero quod adipisci aut. Illum adipisci vel quae explicabo quibusdam et vitae excepturi ratione
+                    iusto magni repellat ipsam quam earum, dolorem, vero accusamus voluptates nesciunt, tempora
+                    laudantium amet alias dolore eius at beatae! Possimus, pariatur itaque officiis eos atque
+                    laboriosam. Voluptatibus, debitis? Qui iusto cupiditate impedit quo sit commodi nihil.
+                </p>
+            </div>
+            <!-- parrafo 2-->
+            <div class="col-4">
+                <p class="letraParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum rem dolorum
+                    dolores, dolor, minima neque
+                    voluptate necessitatibus perferendis soluta dignissimos ducimus consequatur eos! Vitae et dicta
+                    reprehenderit ullam. Sed saepe error sint quam totam possimus dolore natus dolorum, a at, eos
+                    recusandae aspernatur necessitatibus vitae quos libero perferendis quidem iusto ducimus modi. Non
+                    incidunt architecto placeat magnam quo perferendis at quisquam quibusdam! Architecto similique
+                    accusantium maiores? In debitis inventore excepturi adipisci. Laboriosam fugit, molestiae tempora
+                    quam magni quidem maiores odit ipsum. Voluptates voluptate voluptatum tempore assumenda possimus. Ex
+                    inventore veritatis necessitatibus hic tempora natus, ipsum, eius delectus fugit nihil placeat.
+                </p>
+                <div class="colorTurquesa p-1 mt-2">
+                    <i class="fa-solid fa-mountain fa-2x"></i> <!-- icono -->
+                </div>
+            </div>
+            <!-- parrafo 2-->
+            <div class="col-4">
+                <div class=" colorTurquesa p-1 mb-2">
+                    <i class="fa-solid fa-route fa-2x"></i><!-- icono -->
+                </div>
+                <p class="letraParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia doloremque
+                    dolores at voluptatibus
+                    veniam vitae eius facilis eos ullam repellat sed amet natus corrupti, libero, provident non optio
+                    aliquam, quo ex accusamus corporis quae dicta expedita minus! Laudantium voluptatum incidunt odit,
+                    neque culpa autem, sequi aut quo repudiandae fugit ut quisquam veritatis cupiditate quasi similique
+                    ad suscipit officiis doloremque aspernatur. Aliquam iusto ipsam atque quaerat ratione expedita
+                    cupiditate! Tempore facilis dolores fugit voluptatem repellat ipsam dolore libero quidem vero
+                    officia nihil esse deleniti aperiam, culpa similique sequi neque alias rem nobis laboriosam pariatur
+                    voluptatum voluptatibus voluptates! Tenetur architecto cupiditate dolores.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destacados -->
+    <section id="destacados" class="py-5">
+        <div>
+            <h2 class=" text-center text-white pt-5 titulos">Destacados </h2>
+            <hr class="opacity-100 separacion "> <!-- linea divisoria -->
+        </div>
+        <!-- tarjetas -->
+        <div class="container">
+            <div class="row">
+                <!-- tarjeta 1 -->
+                <div class="col-12 col-sm-3 my-3 ">
+                    <!-- de small en adelante ocupa 3 grillas para que caigan 4 columnas, my: para movile-->
+                    <div class="card borde-0 colorTurquesa">
+                        <img src="./assets/img/card1.jpg" class="card-img-top imgTarjetas" alt="imagen paisaje1">
+                        <div class="card-body">
+                            <h4 class="letraParrafo text-white">Lorem ipsum dolor sit amet </h4>
+                            <p class="card-text letraParrafo text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Distinctio architecto nesciunt placeat maxime adipisci reiciendis! Architecto aut
+                                dignissimos ipsa temporibus!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="col-12 col-sm-3 my-3 ">
+                    <div class="card borde-0 colorTurquesa">
+                        <img src="./assets/img/card2.jpg" class="card-img-top imgTarjetas" alt="Imagen paisaje2">
+                        <div class="card-body">
+                            <h4 class="letraParrafo text-white ">Lorem ipsum dolor sit amet </h4>
+                            <p class="card-text letraParrafo text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Distinctio architecto nesciunt placeat maxime adipisci reiciendis! Architecto aut
+                                dignissimos ipsa temporibus!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta  3 -->
+                <div class="col-12 col-sm-3 my-3 ">
+                    <div class="card borde-0 colorTurquesa">
+                        <img src="./assets/img/card3.jpg" class="card-img-top imgTarjetas " alt="Imagen paisaje2">
+                        <div class="card-body">
+                            <h4 class="letraParrafo text-white">Sed do eiusmod tempor incididunt </h4>
+                            <p class="card-text letraParrafo text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Distinctio architecto nesciunt placeat maxime adipisci reiciendis! Architecto
+                                dignissimos ipsa temporibus!.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta  4 -->
+                <div class="col-12 col-sm-3 my-3 ">
+                    <div class="card borde-0 colorTurquesa">
+                        <img src="./assets/img/card4.jpg" class="card-img-top imgTarjetas " alt="Imagen paisaje2">
+                        <div class="card-body">
+                            <h4 class="letraParrafo text-white ">Ut enim ad minim veniam </h4>
+                            <p class="card-text letraParrafo text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Distinctio architecto nesciunt placeat maxime adipisci reiciendis! Architecto aut
+                                dignissimos ipsa temporibus!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
