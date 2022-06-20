@@ -28,10 +28,19 @@ body {
 }
 
 /* tamaño imagen tarjetas */
-.imgTarjetas{
+.imgTarjetas {
     height: 200px
 }
 
+#footer a { /* Toma fotter por id y etiqueta a */
+    color: white;
+    text-decoration: none;
+}
+
+.tituloFooter{
+    font-family:'oswald';
+    
+}
 /* #imagenFondo{
 background-image: image-set(url../);
 } */
