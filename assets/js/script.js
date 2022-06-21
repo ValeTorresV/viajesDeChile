@@ -1,13 +1,6 @@
 
-/* let nav = document.querySelector('nav');
-window.addEventListener('scroll',function(){
-if(window.pageYOffset)
-}) */
-
-$(document).ready(function(){
-    $('#navbar').scroll(function () { 
-        $(this).css({
-            "background": "red",
-        });
-    });
-})
+/* Cambia color de natvar al hacer scroll */
+ window.addEventListener('scroll',function(){
+    let nav = document.querySelector('nav');
+    nav.classList.toggle("sticky", window.scrollY > 0)
+}) 

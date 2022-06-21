@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: auto !important;
+}
+
 body {
     font-family: Helvetica;
 }
@@ -11,7 +15,7 @@ body {
 .separacion {
     color: #17a2b8;
     border-top: 0.1em solid;
-    /* rosor linia */
+    /* grosor linia */
 }
 
 .letraParrafo {
@@ -39,8 +43,11 @@ body {
 
 .tituloFooter{
     font-family:'oswald';
-    
+
 }
-/* #imagenFondo{
-background-image: image-set(url../);
-} */
+
+/* color navbar al hacer scroll */
+nav.sticky{
+padding: 5px 8px;
+background:#17a2b8;
+}
